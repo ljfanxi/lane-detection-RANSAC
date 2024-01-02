@@ -233,10 +233,10 @@ while True:
             linspace_points = np.linspace(0, len(all_midpoints) - 1, num_points, dtype=int)
 
             # Draw circles using the linspace points
-            radius = 4  # Adjust the radius as needed
-            for i in linspace_points:
-                center = tuple(all_midpoints[i])
-                cv2.circle(frame, center, radius, (255, 255, 255), thickness=-1)  # -1 fills the circle
+            # radius = 4  # Adjust the radius as needed
+            # for i in linspace_points:
+            #     center = tuple(all_midpoints[i])
+            #     cv2.circle(frame, center, radius, (255, 255, 255), thickness=-1)  # -1 fills the circle
 
 
             # Combine the x and y coordinates of the two fitted curves
