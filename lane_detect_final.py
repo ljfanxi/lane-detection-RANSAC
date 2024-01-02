@@ -84,7 +84,7 @@ while True:
     roi_image = cv2.bitwise_and(final_mask, mask)
 
     # Apply Hough line transformation
-    lines = cv2.HoughLinesP(roi_image, rho=1, theta=np.pi/180, threshold=8, minLineLength=0.1, maxLineGap=0.1)
+    lines = cv2.HoughLinesP(roi_image, rho=1, theta=np.pi/180, threshold=1, minLineLength=0.1, maxLineGap=0.1)
 
     coordinates1 = []
     coordinates2 = []
