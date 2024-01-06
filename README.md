@@ -1,4 +1,4 @@
-![Screenshot from 2024-01-02 19-36-47](https://github.com/ljfanxi/lane-detection-RANSAC/assets/61730377/ad3e35e6-0f29-4c4d-a0f5-b70c2f90f352)# RANSAC Non-Linear Regression
+# RANSAC Non-Linear Regression
 1. Feature extraction 
 Using HSV color identification
 Extract Color: yellow and white
